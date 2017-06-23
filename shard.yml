@@ -1,0 +1,19 @@
+name: interstellar-cry
+version: 0.1.0
+
+authors:
+  - Andrea Di Mario <anddimario@gmail.com>
+
+targets:
+  interstellar-cry:
+    main: src/interstellar-cry.cr
+
+dependencies:
+  redis:
+    github: stefanwille/crystal-redis
+    version: ~> 1.8.0
+
+
+crystal: 0.22.0
+
+license: MIT
